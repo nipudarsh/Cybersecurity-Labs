@@ -1,0 +1,31 @@
+## Network Diagnostic Commands
+
+**Check IP Address**
+```bash
+ip a
+```
+*Why:* Shows your device's network interfaces and assigned IP addresses.
+
+**Check Routing Table**
+```bash
+ip route
+```
+*Why:* Shows how network traffic is directed from your device to other networks.
+
+**Test Connectivity**
+```bash
+ping google.com
+```
+*Why:* Tests if you can reach a remote host and measures connection delay.
+
+**DNS Lookup**
+```bash
+nslookup google.com
+```
+*Why:* Converts domain names to IP addresses using DNS.
+
+**Check Active Connections**
+```bash
+ss -tuln
+```
+*Why:* Shows all open ports and active network connections on your system.
