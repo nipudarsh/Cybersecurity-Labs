@@ -1,0 +1,6 @@
+  `ip a`
+  `ip route`
+  `ping`
+  `ss -tuln`
+  `traceroute`
+  Windows: `ipconfig`, `tracert`
